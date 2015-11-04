@@ -1,0 +1,26 @@
+{
+  "name": "number-formatter",
+  "version": "0.0.1",
+  "description": "publish first node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucobain/number-formatter.git"
+  },
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "author": "Julio Vargas <juliovllubere@gmail.com> (http://www.llubere.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kucobain/number-formatter/issues"
+  },
+  "homepage": "https://github.com/kucobain/number-formatter#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
