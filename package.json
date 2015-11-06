@@ -4,7 +4,8 @@
   "description": "publish first node module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   "homepage": "https://github.com/kucobain/number-formatter#readme",
   "devDependencies": {
     "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
     "mocha": "^2.3.3"
   }
 }
